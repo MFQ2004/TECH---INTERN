@@ -1,0 +1,96 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+
+    background-color: rgb(238, 238, 104);
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95px;
+    background-color: rgb(245, 245, 57);
+    border: 2px solid black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(44, 6, 179);
+    font-size: 1.5rem;
+
+}
+
+main hr {
+    background-color: grey;
+    border: 0;
+    height: 3px;
+    margin: 10px 84px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    /* align-items: center; */
+}
+
+.text-grey {
+    color: rgb(250, 181, 7);
+    font-size: 2rem;
+    border: 5px solid black;
+    background-color: black;
+}
+
+.right {
+    font-size: 1.05rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.about-section {
+    width: 70%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fbff00;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content h2 {
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    line-height: 1.6;
+}

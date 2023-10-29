@@ -1,0 +1,186 @@
+
+/* CSS for main  */
+
+body {
+
+    background-color: rgb(238, 238, 104);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95px;
+    background-color: rgb(245, 245, 57);
+    border: 2px solid black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(44, 6, 179);
+    font-size: 1.5rem;
+
+}
+
+main hr {
+    background-color: grey;
+    border: 0;
+    height: 3px;
+    margin: 10px 84px;
+}
+
+.right {
+    font-size: 1.05rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    /* align-items: center; */
+}
+
+.text-grey {
+    color: rgb(250, 181, 7);
+    font-size: 2rem;
+    border: 5px solid black;
+    background-color: black;
+    
+    /* margin:  0; */
+    /* height: 10vh; */
+}
+
+.secondsection h1 {
+    margin: 23px;
+}
+
+.firstsection>div {
+    width: 40%;
+}
+
+.leftsection {
+    /* background-color: red; */
+    font-size: 2rem;
+    /* margin: 30px 0; */
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 30px 0;
+}
+
+#element {
+    font-size: 2.5rem;
+    color: #03277c;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80px;
+}
+
+.secondsection h1 {
+    font-size: 1.8rem;
+}
+
+/* .box hr {
+    height: .3vw;
+    background-color: grey;
+    margin: 30px;
+} */
+.secondsection .box .vertical {
+    height: 93px;
+    width: 2px;
+    background-color: black;
+    display: flex;
+    margin: 0 100px;
+
+}
+.up h2{
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 30px;
+    background-color: rgb(255, 255, 72);
+    border: solid#03277c;
+}
+
+.line p{
+    background-color:grey;
+    /* width: 100px; */
+    height: 4px;
+}
+.middle{
+    margin-left: 20px;
+}
+
+.middle h3{
+    text-align: left;
+    margin: 20px 0 10px ;
+    font-size: 2.2rem;
+}
+.middle #projectoverview{
+    font-size: 1.8rem;
+}
+
+.middle .poc{
+    font-size: 1.2rem;
+}
+.middle #projectfeatures{
+    font-size: 1.8rem;
+}
+.middle .pf{
+ font-size: 1.2rem;   
+}
+.middle #technologiesused{
+    font-size: 1.8rem;
+    /* font-weight: 1000; */
+}
+.middle .tu{
+    font-size: 1.2rem;
+}
+.middle #whyproject{
+    font-size: 1.8rem;
+}
+.middle .wpm{
+    font-size: 1.2rem;
+}
+.middle #keytakeways{
+    font-size: 1.8rem;
+}
+.middle .ktw{
+    font-size: 1.2rem;
+}
+
+.middle #githublink{
+    font-size: 1.8rem;
+}
+.middle .gtl{
+    font-size: 1.3rem;
+    /* background-color: black; */
+    
+}
+/* .middle .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  } */
